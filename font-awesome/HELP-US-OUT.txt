@@ -1,0 +1,46 @@
+I hope you love Font Awesome. If you've found it useful, please do me a favor and check out my latest project,
+Fort Awesome (https://fortawesome.com). It makes it easy to put the perfect icons on your website. Choose from our awesome,
+comprehensive icon sets or copy and paste your own.
+
+Please. Check it out.
+
+-Dave Gandy
+.logo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(255,125,125);
+    line-height: 50px;
+    border-radius: 50px;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logoEnd{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: -3px;
+}
+.logoEnd::before{
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 50px;
+    border-bottom: 1px solid rgb(255,125,125);
+}
+.logoEnd::after{
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 25px;
+    left: 0;
+    width: 50px;
+    border-top: 1px solid rgb(255,125,125);
+}
